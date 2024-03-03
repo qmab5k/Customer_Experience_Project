@@ -6,8 +6,8 @@ TechTrend is a leading player in the consumer electronics industry with an onlin
 1. [Introduction](#introduction)
 2. [Data Importation and Overview](#data-importation-and-overview)
 3. [Data Visualization](#data-visualization)
-4. [Clustering Analysis](#clustering-analysis)
-5. [Recommendation System](#recommendation-system)
+4. [Data Modelling Analysis](#data-modelling-analysis)
+5. [Customer Interaction Analysis](#customer-interaction-analysis)
 
 ## 1. Introduction
 
@@ -21,7 +21,7 @@ TechTrend aims to develop a personalized recommendation system to provide custom
 
 ### Libraries Used
 
-The project utilizes various Python libraries such as pandas, matplotlib, seaborn, numpy, scikit-learn, warnings, and geopandas.
+The project utilizes various Python libraries such as pandas, matplotlib, seaborn, numpy, scikit-learn, warnings, NLTK and geopandas.
 
 ### Data Importation
 
@@ -31,13 +31,15 @@ The project involves importing three main datasets: sale data, support data, and
 
 The data visualization section provides insights into various aspects of the datasets, including product sales, customer demographics, geographical distribution, and interaction types.
 
-## 4. Clustering Analysis
+## 4. Data Modelling
 
 Clustering analysis is performed to segment customers based on their purchasing behavior, geographical location, and other relevant factors. The analysis helps in identifying distinct customer segments and understanding their characteristics.
-
-## 5. Recommendation System
-
+Sales Forcasting was perform to understand sales direction in the coming months
 A recommendation system is developed using collaborative filtering techniques to provide personalized product recommendations to customers. The system leverages machine learning algorithms to predict customer preferences and improve the overall shopping experience.
+
+## 5. Customer Interaction Analysis
+Customer data invoving interaction with support was analysed to understand frequent issues highlighted by customers before and/or after purchases.
+
 
 For detailed code implementation and analysis, please refer to the Jupyter Notebook files in the repository.
 
